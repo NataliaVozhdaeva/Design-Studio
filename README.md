@@ -1,1 +1,1 @@
-# zaverstai_2022
+Landing for Design Studio
