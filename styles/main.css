@@ -1,0 +1,52 @@
+@import url('./header.css');
+
+:root {
+  --main-text-color: #533738;
+  --main-background-color-light: #e2c4ba;
+  --main-background-color-dark: #8d7370;
+  --main-btn-color: #cc8b86;
+}
+
+.body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--main-text-color);
+
+  width: 1400px;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--main-text-color);
+
+  box-sizing: border-box;
+}
+
+.link:hover {
+  text-shadow: 0 0 5px orange;
+}
+
+.list {
+  padding: 0;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+  height: 74px;
+  background-color: var(--main-btn-color);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.btn.link:hover {
+  text-shadow: none;
+}

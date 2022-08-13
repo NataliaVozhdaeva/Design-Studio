@@ -4,29 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
     <title>DizainStudio</title>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
-      <nav class="nav">
-        <a href="" class="nav-item logo"><img class="ligo-img" />SCANDI</a>
-        <a href="" class="nav-item">О компании</a>
-        <a href="" class="nav-item">Портфолио</a>
-        <a href="" class="nav-item">Команда</a>
-        <a href="" class="nav-item">Как мы работаем</a>
-        <a href="" class="nav-item">Отзывы клиентов</a>
-        <a href="" class="nav-item">Оставить заявку</a>
-        <a href="" class="nav-item">+7 (981) 857-46-24</a>
-      </nav>
-      <h1 class="header-title">Поможем сделать вашу квартиру уютнее</h1>
-      <p class="header-text">
-        Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку
-      </p>
-      <a href="" class="btn header-btn__desktop">Оставить заявку</a>
+      <section class="nav-wrapper">
+        <a href="" class="logo link"><img class="logo-img" src="./img/content/logo.png" />SCANDI</a>
+        <nav class="nav">
+          <a href="#aboutUs" class="nav-item link">О компании</a>
+          <a href="#examples" class="nav-item link">Портфолио</a>
+          <a href="#crew" class="nav-item link">Команда</a>
+          <a href="#ourRules" class="nav-item link">Как мы работаем</a>
+          <a href="#feedback" class="nav-item link">Отзывы клиентов</a>
+          <a href="#orderForm" class="nav-item link">Оставить заявку</a>
+          <a href="" class="nav-item link">+7 (981) 857-46-24</a>
+        </nav>
+    </section>
+      <section class="header-hero">
+        <h1 class="header-title">Поможем сделать вашу квартиру уютнее</h1>
+        <p class="header-text">
+          Подбираем текстиль, мебель и аксессуары <br /> под ваш интерьер, находим магазины <br />и помогаем организовать доставку
+        </p>
+      <a href="" class="btn header-btn__desktop link">Оставить заявку</a>
+    </section>
     </header>
 
     <main class="main">
-      <section class="aboutUs">
+      <section id="aboutUs">
         <h2 class="aboutUs-title">О нас</h2>
         <div class="aboutUs-text">
           <p>
@@ -38,14 +45,14 @@
             Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать: « Да! Это именно то,
             что действительно достойно моего дома!»
           </p>
-          <ul class="aboutUs-breefly">
+          <ul class="aboutUs-breefly list">
             <li class="breefly-item">5 лет опыта</li>
             <li class="breefly-item">100 проектов</li>
             <li class="breefly-item">10 наград</li>
           </ul>
         </div>
       </section>
-      <section class="examples">
+      <section id="examples">
         <h2 class="examples-title">Наши работы</h2>
         <div class="examples-content">
           <h3 class="describeTitle">Квартира-студия 30 кв.м.</h3>
@@ -69,7 +76,7 @@
           </div>
         </div>
       </section>
-      <secton class="crew">
+      <secton id="crew">
         <h2 class="crew-title">Команда</h2>
         <div class="crew-item">
           <img src="./img/content/Masha.jpg" alt="Masha's photo" class="memberPhoto" width="320" height="253">
@@ -84,14 +91,16 @@
           <p class="aboutMember">Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, 
             как обустроить дом так, чтобы вам понравилось.</p></div>
       </secton>
-      <section class="ourRules">
+      <section id="ourRules">
         <h2 class="ourRules-title">Как мы работаем</h2>
-        <div class="ourRules-item">Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.</div>
-        <div class="ourRules-item">Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.</div>
-        <div class="ourRules-item">Находим нужные магазины, помогаем с доставкой и оплатой товаров.</div>
-        <div class="ourRules-item">Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</div>
+        <ol class="list">
+          <li class="ourRules-item">Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.</li>
+          <li class="ourRules-item">Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.</li>
+          <li class="ourRules-item">Находим нужные магазины, помогаем с доставкой и оплатой товаров.</li>
+          <li class="ourRules-item">Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</li>
+        </ol>
       </section>
-      <article class="feedback">
+      <article id="feedback">
         <h2 class="feedback-title">Отзывы</h2>
         <blockquote class="feedback-blockquote">
           <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
@@ -105,7 +114,7 @@
     </main>
 
     <footer class="footer">
-      <form action="get" class="orderForm">
+      <form action="get" id="orderForm">
         <h2 class="orderForm-title">Оставить заявку</h2>
         <p class="orderForm-text"></p>
         <label for="" class="name" for="name">
@@ -114,13 +123,13 @@
         <label for="" class="phone" for="phone">
           <input type="text" id="phone" placeholder="Введите телефон" />
         </label>
-        <button type="submit" class="btn orderForm-btn"></button>
+        <button type="submit" class="btn orderForm-btn">Оставить заявку</button>
       </form>
       <div class="map"></div>
       <div class="contacts">
-        <a href="tel:+79818574624" class="telephone">+7 (981) 857-46-24</a>
-        <a href="" class="adress">г. Санкт-петербург, ул. Большая Конюшенная, 19</a>
-        <a href="" class="info">ИП Королёва А.А.</a>
+        <a href="tel:+79818574624" class="telephone link">+7 (981) 857-46-24</a>
+        <a href="" class="adress link">г. Санкт-петербург, ул. Большая Конюшенная, 19</a>
+        <a href="" class="info link">ИП Королёва А.А.</a>
       </div>
     </footer>
   </body>
