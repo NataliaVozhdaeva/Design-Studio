@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/main-style.css">
     <title>DizainStudio</title>
   </head>
   <body class="body">
@@ -24,38 +24,38 @@
         </nav>
     </section>
       <section class="header-hero">
-        <h1 class="header-title">Поможем сделать вашу квартиру уютнее</h1>
+        <h1 class="header-title title">Поможем сделать вашу квартиру уютнее</h1>
         <p class="header-text">
           Подбираем текстиль, мебель и аксессуары <br /> под ваш интерьер, находим магазины <br />и помогаем организовать доставку
         </p>
-      <a href="" class="btn header-btn__desktop link">Оставить заявку</a>
+      <a href="#orderForm" class="btn header-btn__desktop link">Оставить заявку</a>
     </section>
     </header>
 
     <main class="main">
       <section id="aboutUs">
-        <h2 class="aboutUs-title">О нас</h2>
+        <h2 class="aboutUs-title title">О нас</h2>
         <div class="aboutUs-text">
-          <p>
+          <p class="text">
             Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать
             неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то, что
             по-настоящему вдохновляет дизайнеров нашей студии.
           </p>
-          <p>
-            Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать: « Да! Это именно то,
+          <p class="text">
+            Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать: «Да! Это именно то,
             что действительно достойно моего дома!»
           </p>
-          <ul class="aboutUs-breefly list">
-            <li class="breefly-item">5 лет опыта</li>
-            <li class="breefly-item">100 проектов</li>
-            <li class="breefly-item">10 наград</li>
-          </ul>
         </div>
+        <ul class="aboutUs-breefly list">
+          <li class="breefly-item"><p class="digit">5</p> <p class="text">лет опыта</p></li>
+          <li class="breefly-item"><p class="digit">100</p> проектов</li>
+          <li class="breefly-item"><p class="digit">10</p> наград</li>
+        </ul>
       </section>
       <section id="examples">
-        <h2 class="examples-title">Наши работы</h2>
+        <h2 class="examples-title title">Наши работы</h2>
         <div class="examples-content">
-          <h3 class="describeTitle">Квартира-студия 30 кв.м.</h3>
+          <h3 class="describeTitle title">Квартира-студия 30 кв.м.</h3>
             <p class="describe-text">
               В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали
               ребятам уютный интерьер, отсылающий к виллам островов Бали.
@@ -77,7 +77,7 @@
         </div>
       </section>
       <secton id="crew">
-        <h2 class="crew-title">Команда</h2>
+        <h2 class="crew-title title">Команда</h2>
         <div class="crew-item">
           <img src="./img/content/Masha.jpg" alt="Masha's photo" class="memberPhoto" width="320" height="253">
           <p class="aboutMember">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
@@ -92,7 +92,7 @@
             как обустроить дом так, чтобы вам понравилось.</p></div>
       </secton>
       <section id="ourRules">
-        <h2 class="ourRules-title">Как мы работаем</h2>
+        <h2 class="ourRules-title title">Как мы работаем</h2>
         <ol class="list">
           <li class="ourRules-item">Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.</li>
           <li class="ourRules-item">Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.</li>
@@ -101,7 +101,7 @@
         </ol>
       </section>
       <article id="feedback">
-        <h2 class="feedback-title">Отзывы</h2>
+        <h2 class="feedback-title title">Отзывы</h2>
         <blockquote class="feedback-blockquote">
           <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
             Работа шла быстро, было очень приятно общаться и взаимодествовать с сотрудниками. Не ожидала, 
@@ -115,7 +115,7 @@
 
     <footer class="footer">
       <form action="get" id="orderForm">
-        <h2 class="orderForm-title">Оставить заявку</h2>
+        <h2 class="orderForm-title title">Оставить заявку</h2>
         <p class="orderForm-text"></p>
         <label for="" class="name" for="name">
           <input type="text" id="name" placeholder="Ваше имя" />

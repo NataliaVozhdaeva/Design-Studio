@@ -1,6 +1,6 @@
 .header {
   padding: 36px 100px;
-  background: var(--main-background-color-light) url('../img/background/header.png') no-repeat;
+  background: var(--main-background-color) url('../img/background/header.png') no-repeat;
 }
 
 .nav-wrapper {
@@ -17,8 +17,8 @@
   position: relative;
 }
 
-.logo-img:hover {
-  box-shadow: 0 0 5px orange;
+.logo:hover {
+  box-shadow: 0 0 5px var(--main-background-color-dark);
 }
 
 .nav {
@@ -41,13 +41,15 @@
   margin-bottom: 132px;
 }
 
-.header-title {
+.header-title.title {
   font-size: 50px;
   line-height: 62px;
-  font-weight: 400;
-  margin: 0;
 }
 
 .header-text {
   margin-bottom: 27px;
+}
+
+.header-btn__desktop {
+  margin-bottom: 168px;
 }
