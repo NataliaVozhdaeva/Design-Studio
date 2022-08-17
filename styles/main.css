@@ -8,7 +8,6 @@
 .aboutUs-title {
   padding: var(--section-padding) 183px 0;
   width: 100%;
-  text-align: center;
 }
 
 .aboutUs-text {
@@ -51,7 +50,11 @@
   padding: var(--section-padding) 100px;
 }
 
-.examples-content {
+.examples-title.title {
+  text-align: left;
+}
+
+.examples-slide {
   margin: 40px 0;
   display: flex;
   flex-wrap: wrap;
@@ -86,7 +89,6 @@
 
 .describeTitle.title {
   text-transform: none;
-  text-align: center;
   margin: 0 70px 20px;
   font-weight: 500;
   font-size: 30px;
@@ -132,7 +134,6 @@
 
 .crew-title,
 .ourRules-title {
-  text-align: center;
   grid-column: 1/-1;
   grid-row: 1/2;
 }
@@ -201,13 +202,48 @@
   box-sizing: border-box;
 }
 
-/* #feedback {
-  padding: 65px 182px;
-  display: grid;
-  grid-template-columns: 72px 29px min-content 407px 29px 72px;
-  grid-template-rows: 50px 40px 1fr 20px 1fr ;
-} */
+#feedback {
+  padding: var(--section-padding) 182px;
+}
+
+.feedback-title {
+  padding-bottom: 40px;
+}
+
+.feedback-sliderWrapper {
+  display: flex;
+  column-gap: 29px;
+  align-items: center;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.feedback-arrow {
+  margin-top: -30px;
+  flex-shrink: 0;
+}
 
 .feedback-arrow--next {
   transform: rotate(180deg);
+}
+
+.slider-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.feedback-blockquote {
+  margin: 0;
+}
+
+.feedback-text.text {
+  margin-bottom: 30px;
+}
+
+.feedback-photos {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-left: 10px;
 }

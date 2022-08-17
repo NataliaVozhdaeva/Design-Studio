@@ -44,6 +44,7 @@
   line-height: 50px;
   margin: 0;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .text {
@@ -79,4 +80,8 @@
 .btn:hover {
   text-shadow: none;
   border: 2px solid var(--btn-border-color);
+}
+
+.hidden {
+  visibility: hidden;
 }
