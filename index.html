@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/main-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>DizainStudio</title>
   </head>
   <body class="body">
@@ -57,42 +57,38 @@
         <ul class="examples-content list">
           <li class="examples-slide">
             <div class="examples-item">
-              <img src="./img/content/bedroom.jpg" alt="bedroom's photo" class="examples-img" width="488" height="451" />
+              <img alt="bedroom's photo" class="examples-img" width="488" height="451" />
               <div class="examples-item--hover">
                 <h3 class="describeTitle title">Квартира-студия 30 кв.м.</h3>
-                <p class="describe-text text">
-                  В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках к природе и сделали
-                  ребятам уютный интерьер, отсылающий к виллам островов Бали.
+                <p class="describe-text text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках 
+                  к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.
                 </p>
               </div> 
             </div>
             <div class="examples-item">
-              <img src="./img/content/dining room.jpg" alt="diningroom's photo" class="examples-img" width="692" height="451" />
+              <img alt="diningroom's photo" class="examples-img" width="692" height="451" />
               <div class="examples-item--hover">
                 <h3 class="describeTitle title">Квартира-студия 30 кв.м.</h3>
-                <p class="describe-text text">
-                  В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках к природе и сделали
-                  ребятам уютный интерьер, отсылающий к виллам островов Бали.
+                <p class="describe-text text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках 
+                  к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.
                 </p>
               </div> 
             </div>
             <div class="examples-item">
-              <img src="./img/content/main room.jpg" alt="livingroom's photo" class="examples-img" width="692" height="451" />
+              <img alt="livingroom's photo" class="examples-img" width="692" height="451" />
               <div class="examples-item--hover">
                 <h3 class="describeTitle title">Квартира-студия 30 кв.м.</h3>
-                <p class="describe-text text">
-                  В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках к природе и сделали
-                  ребятам уютный интерьер, отсылающий к виллам островов Бали.
-                </p>
+                <p class="describe-text text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках 
+                к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.
+              </p>
               </div> 
             </div>
             <div class="examples-item">
-              <img src="./img/content/bathroom.jpg" alt="bathroom's photo" class="examples-img" width="488" height="451" />
+              <img alt="bathroom's photo" class="examples-img" width="488" height="451" />
               <div class="examples-item--hover">
                 <h3 class="describeTitle title">Квартира-студия 30 кв.м.</h3>
-                <p class="describe-text text">
-                  В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках к природе и сделали
-                  ребятам уютный интерьер, отсылающий к виллам островов Бали.
+                <p class="describe-text text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках 
+                  к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.
                 </p>
               </div> 
             </div>
@@ -160,21 +156,29 @@
     <footer class="footer">
       <form action="get" id="orderForm">
         <h2 class="orderForm-title title">Оставить заявку</h2>
-        <p class="orderForm-text"></p>
+        <p class="orderForm-text text">Оставьте свои контакты. Менеджер перезвонит в&nbspудобное вам время и ответит на все вопросы.</p>
         <label for="" class="name" for="name">
           <input type="text" id="name" placeholder="Ваше имя" />
         </label>
         <label for="" class="phone" for="phone">
           <input type="text" id="phone" placeholder="Введите телефон" />
         </label>
-        <button type="submit" class="btn orderForm-btn">Оставить заявку</button>
+        <button type="submit" class="btn orderForm-btn--desktop btn--rect">Оставить заявку</button>
       </form>
-      <div class="map"></div>
-      <div class="contacts">
-        <a href="tel:+79818574624" class="telephone link">+7 (981) 857-46-24</a>
-        <a href="" class="adress link">г. Санкт-петербург, ул. Большая Конюшенная, 19</a>
-        <a href="" class="info link">ИП Королёва А.А.</a>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651586!2d30.320894616352156!3d59.938794181876254!
+        2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC1
+        0L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2seg!4v1661443126590
+        !5m2!1sru!2seg"
+         width="590" height="625" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </footer>
+    <aside class="contacts">
+      <a href="tel:+79818574624" class="telephone link">+7 (981) 857-46-24</a>
+      <a href="" class="adress link">г. Санкт-петербург, ул. Большая Конюшенная, 19</a>
+      <a href="" class="info link">ИП Королёва А.А.</a>
+    </aside>
   </body>
+  <script src="./scripts/main.js"></script>
 </html>

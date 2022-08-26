@@ -1,5 +1,6 @@
 @import url('./header.css');
 @import url('./main.css');
+@import url('./footer.css');
 
 :root {
   --main-text-color: #533738;
@@ -59,6 +60,7 @@
   font-size: 20px;
   line-height: 24px;
   box-sizing: border-box;
+  /* color: var(--main-text-color); */
 }
 
 .btn--rect {

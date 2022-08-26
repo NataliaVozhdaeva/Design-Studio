@@ -2,7 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  background: url('../img/background/aboutUs.png') left 184px top 155px no-repeat;
+  background: url('../img/background/aboutUs.png') left 184px top 155px
+    no-repeat;
 }
 
 .aboutUs-title {
