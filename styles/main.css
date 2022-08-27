@@ -1,4 +1,4 @@
-#aboutUs {
+.aboutUs {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -47,7 +47,7 @@
   margin-bottom: 8px;
 }
 
-#examples {
+.examples {
   padding: var(--section-padding) 100px;
 }
 
@@ -120,11 +120,16 @@
   cursor: pointer;
 }
 
+.handler-btn:hover,
+.handler-btn:focus {
+  box-shadow: 0 0 5px var(--main-background-color-dark);
+}
+
 .btn-prev {
   display: none;
 }
 
-#crew {
+.crew {
   background: var(--main-background-color-middle);
   padding: 50px 181px 35px;
   display: grid;
@@ -155,7 +160,7 @@
   grid-column: 3/4;
 }
 
-#ourRules {
+.ourRules {
   background: var(--main-background-color-middle);
   padding: 0 99px 80px;
   display: grid;
@@ -203,7 +208,7 @@
   box-sizing: border-box;
 }
 
-#feedback {
+.feedback {
   padding: var(--section-padding) 182px;
 }
 

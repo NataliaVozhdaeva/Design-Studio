@@ -60,7 +60,11 @@
   font-size: 20px;
   line-height: 24px;
   box-sizing: border-box;
-  /* color: var(--main-text-color); */
+}
+
+.btn:focus,
+.btn:focus-visible {
+  box-shadow: 0 0 5px var(--main-background-color-dark);
 }
 
 .btn--rect {

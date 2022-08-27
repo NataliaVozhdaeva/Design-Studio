@@ -19,7 +19,7 @@
   flex-grow: 1;
 }
 
-#orderForm {
+.orderForm {
   width: 507px;
   margin-left: 81px;
   margin-top: 50px;
