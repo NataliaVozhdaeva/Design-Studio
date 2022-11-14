@@ -1,15 +1,43 @@
 @media only screen and (max-width: 480px) {
   .body {
-    width: 365px;
+    width: 100vw;
     font-size: 14px;
   }
 
   .header {
     background: var(--main-background-color)
       url('../img/background/header-mobile.png') no-repeat;
+    padding: 20px;
+    overflow: hidden;
+    width: 100vw;
+    box-sizing: border-box;
   }
 
   .nav {
     display: none;
+  }
+
+  .nav-mobile {
+    display: inline-block;
+    width: 75px;
+    height: 3px;
+    border: none;
+    background-color: var(--main-text-color);
+    box-shadow: 0 5px 0 var(--main-text-color), 0 15px 0 var(--main-text-color),
+      0 10px 0 var(--main-text-color);
+    margin-top: 4px;
+    padding: 0 0 20px;
+  }
+
+  .nav-wrapper {
+    margin-bottom: 70px;
+    width: 90vw;
+    justify-content: space-around;
+  }
+
+  .header-hero {
+    width: 90vw;
+    margin-left: 0px;
+    margin-bottom: 30px;
   }
 }

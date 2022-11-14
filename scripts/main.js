@@ -84,3 +84,8 @@ feedbackArrowPrev.addEventListener('click', () => {
     (activeSlideNumber + feeedbackContent.length - 1) % feeedbackContent.length;
   showFeedback(activeSlideNumber);
 });
+
+const mobileMenuBtn = document.querySelector('.nav-mobile');
+mobileMenuBtn.addEventListener('click', () => {
+  console.log('menu');
+});

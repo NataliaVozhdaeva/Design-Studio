@@ -1,7 +1,7 @@
 @import url('./header.css');
 @import url('./main.css');
 @import url('./footer.css');
-/* @import url('./mobile.css'); */
+@import url('./mobile.css');
 
 :root {
   --main-text-color: #533738;
@@ -20,7 +20,6 @@
   font-size: 18px;
   line-height: 167%;
   color: var(--main-text-color);
-  width: 1400px;
   margin: auto;
   background-color: var(--main-background-color);
 }

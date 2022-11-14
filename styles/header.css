@@ -1,4 +1,6 @@
 .header {
+  width: 1400px;
+  margin: auto;
   padding: 36px 100px;
   background: var(--main-background-color) url('../img/background/header.png')
     no-repeat;
@@ -6,6 +8,10 @@
 
 .nav-wrapper {
   display: flex;
+}
+
+.nav-mobile {
+  display: none;
 }
 
 .logo {

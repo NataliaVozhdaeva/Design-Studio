@@ -1,4 +1,6 @@
 .footer {
+  width: 1400px;
+  margin: auto;
   background-color: var(--main-background-color-dark);
   color: #fff;
   padding: 0px 100px;
@@ -8,6 +10,8 @@
 }
 
 .contacts {
+  width: 1400px;
+  margin: auto;
   padding: 37px 100px;
   display: flex;
   justify-content: space-between;

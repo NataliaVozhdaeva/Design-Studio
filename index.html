@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>DizainStudio</title>
   </head>
@@ -13,6 +14,7 @@
     <header class="header">
       <section class="nav-wrapper">
         <a href="" class="logo link"><img class="logo-img" src="./img/content/logo.png" />SCANDI</a>
+        <button type="button" class="nav-mobile"></button>
         <nav class="nav">
           <a href="#aboutUs" class="nav-item link">О компании</a>
           <a href="#examples" class="nav-item link">Портфолио</a>
@@ -56,8 +58,8 @@
         <h2 class="examples-title title">Наши работы</h2>
         <ul class="examples-content list">
           <li class="examples-slide">
-            <div class="examples-item">
-              <img alt="bedroom's photo" class="examples-img" width="488" height="451" />
+            <div class="examples-item" >
+              <img alt="bedroom's photo" class="examples-img" width="488" height="451" data-aos="fade-down" />
               <div class="examples-item--hover">
                 <h3 class="describeTitle title">Квартира-студия 30 кв.м.</h3>
                 <p class="describe-text text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках 
@@ -65,8 +67,8 @@
                 </p>
               </div> 
             </div>
-            <div class="examples-item">
-              <img alt="diningroom's photo" class="examples-img" width="692" height="451" />
+            <div class="examples-item" >
+              <img alt="diningroom's photo" class="examples-img" width="692" height="451" data-aos="fade-left" />
               <div class="examples-item--hover">
                 <h3 class="describeTitle title">Квартира-студия 30 кв.м.</h3>
                 <p class="describe-text text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках 
@@ -74,8 +76,8 @@
                 </p>
               </div> 
             </div>
-            <div class="examples-item">
-              <img alt="livingroom's photo" class="examples-img" width="692" height="451" />
+            <div class="examples-item" >
+              <img alt="livingroom's photo" class="examples-img" width="692" height="451" data-aos="fade-right" />
               <div class="examples-item--hover">
                 <h3 class="describeTitle title">Квартира-студия 30 кв.м.</h3>
                 <p class="describe-text text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках 
@@ -83,8 +85,8 @@
               </p>
               </div> 
             </div>
-            <div class="examples-item">
-              <img alt="bathroom's photo" class="examples-img" width="488" height="451" />
+            <div class="examples-item" >
+              <img alt="bathroom's photo" class="examples-img" width="488" height="451" data-aos="fade-up" />
               <div class="examples-item--hover">
                 <h3 class="describeTitle title">Квартира-студия 30 кв.м.</h3>
                 <p class="describe-text text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на&nbspотсылках 
@@ -206,5 +208,9 @@
       <a href="" class="info link">ИП Королёва А.А.</a>
     </aside>
   </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({duration:500});
+  </script>
   <script src="./scripts/main.js"></script>
 </html>
