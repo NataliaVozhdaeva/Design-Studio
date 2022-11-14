@@ -233,6 +233,10 @@
   transform: rotate(180deg);
 }
 
+.author {
+  text-transform: uppercase;
+}
+
 .slider-item {
   display: grid;
   grid-template-columns: 1fr 1fr;

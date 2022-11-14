@@ -1,6 +1,7 @@
 .header {
   padding: 36px 100px;
-  background: var(--main-background-color) url('../img/background/header.png') no-repeat;
+  background: var(--main-background-color) url('../img/background/header.png')
+    no-repeat;
 }
 
 .nav-wrapper {
@@ -48,8 +49,9 @@
 
 .header-text {
   margin-bottom: 27px;
+  text-align: center;
 }
 
 .header-btn__desktop {
-  margin-bottom: 168px;
+  margin: 0 auto 168px;
 }

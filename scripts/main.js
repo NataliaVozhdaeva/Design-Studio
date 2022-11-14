@@ -59,3 +59,28 @@ const prevSlideFunc = () => {
 
 btnNext.addEventListener('click', nextSlideFunc);
 btnPrev.addEventListener('click', prevSlideFunc);
+
+const feedbackArrowNext = document.querySelector('.feedback-arrow--next');
+const feedbackArrowPrev = document.querySelector('.feedback-arrow--prev');
+const feeedbackContent = document.querySelectorAll('.slider-item');
+let activeSlideNumber = 0;
+
+function showFeedback() {
+  feeedbackContent[activeSlideNumber].classList.remove('non-displayed');
+  for (let i = 0; i < feeedbackContent.length; i++) {}
+}
+
+showFeedback(activeSlideNumber);
+
+feedbackArrowNext.addEventListener('click', () => {
+  feeedbackContent[activeSlideNumber].classList.add('non-displayed');
+  activeSlideNumber = (activeSlideNumber + 1) % feeedbackContent.length;
+  showFeedback(activeSlideNumber);
+});
+
+feedbackArrowPrev.addEventListener('click', () => {
+  feeedbackContent[activeSlideNumber].classList.add('non-displayed');
+  activeSlideNumber =
+    (activeSlideNumber + feeedbackContent.length - 1) % feeedbackContent.length;
+  showFeedback(activeSlideNumber);
+});

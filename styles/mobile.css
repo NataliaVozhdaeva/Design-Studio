@@ -1,0 +1,15 @@
+@media only screen and (max-width: 480px) {
+  .body {
+    width: 365px;
+    font-size: 14px;
+  }
+
+  .header {
+    background: var(--main-background-color)
+      url('../img/background/header-mobile.png') no-repeat;
+  }
+
+  .nav {
+    display: none;
+  }
+}
