@@ -86,6 +86,16 @@ feedbackArrowPrev.addEventListener('click', () => {
 });
 
 const mobileMenuBtn = document.querySelector('.nav-mobile');
-mobileMenuBtn.addEventListener('click', () => {
-  console.log('menu');
+const menuItems = document.querySelector('.nav');
+
+/* mobileMenuBtn.addEventListener('click', () => {
+  menuItems.classList.toggle('non-displayed');
+}); */
+
+document.addEventListener('click', (e) => {
+  if (e.target == mobileMenuBtn) {
+    menuItems.classList.toggle('non-displayed');
+  } else if (e.target != menuItems) {
+    menuItems.classList.add('non-displayed');
+  }
 });
