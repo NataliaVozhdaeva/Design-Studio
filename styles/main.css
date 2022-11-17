@@ -12,7 +12,7 @@
 }
 
 .aboutUs-title {
-  padding: var(--section-padding) 183px 0;
+  margin: var(--section-padding) auto 0;
   width: 100%;
 }
 
@@ -173,7 +173,7 @@
   grid-template-rows: 50px 42px min-content;
 }
 
-.ourRules-title.title {
+.ourRules-title {
   margin-left: 40px;
 }
 
@@ -214,11 +214,12 @@
 }
 
 .feedback {
-  padding: var(--section-padding) 182px;
+  padding: var(--section-padding) 0;
+  margin: auto;
 }
 
 .feedback-title {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .feedback-sliderWrapper {

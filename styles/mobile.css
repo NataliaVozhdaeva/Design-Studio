@@ -1,5 +1,8 @@
 @media only screen and (max-width: 480px) {
-  .body {
+  .body,
+  .header,
+  .main,
+  .footer {
     width: 100vw;
     font-size: 14px;
   }
@@ -7,10 +10,19 @@
   .header {
     background: var(--main-background-color)
       url('../img/background/header-mobile.png') no-repeat;
-    padding: 20px;
+    padding: 35px 20px;
     overflow: hidden;
-    width: 100vw;
     box-sizing: border-box;
+    margin-bottom: 100px;
+  }
+
+  .header-title.title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .header-text {
+    margin-bottom: 70px;
   }
 
   .nav {
@@ -52,5 +64,118 @@
     width: 90vw;
     margin-left: 0px;
     margin-bottom: 30px;
+  }
+
+  .header-btn {
+    margin-bottom: 0;
+  }
+
+  .aboutUs {
+    background: none;
+    position: relative;
+  }
+
+  .aboutUs::before {
+    position: absolute;
+    width: 100%;
+    height: 465px;
+    content: '';
+    background: url('../img/background/aboutUs.png') no-repeat center;
+    opacity: 0.25;
+  }
+
+  .aboutUs-breefly {
+    height: auto;
+    flex-direction: column;
+    row-gap: 100px;
+    padding: 75px 0;
+  }
+
+  .aboutUs-title {
+    margin: 0 auto 70px;
+  }
+
+  .aboutUs-text {
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 100px;
+    text-align: justify;
+  }
+
+  .examples {
+    padding: 50px;
+    margin-bottom: 100px;
+  }
+
+  .crew {
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 75px;
+  }
+
+  .crew-title {
+    margin-top: 0;
+  }
+
+  .crew-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutMember {
+    text-align: center;
+  }
+
+  .ourRules {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px 80px;
+  }
+
+  .ourRules-title {
+    margin: 0 auto 50px;
+  }
+
+  .ourRules-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
+  }
+
+  .feedback {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 200px;
+  }
+
+  .feedback-sliderWrapper {
+    margin: 0;
+    padding: 0 30px;
+    display: flex;
+    position: relative;
+  }
+
+  .slider-item {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+
+  .feedback-arrow {
+    position: absolute;
+  }
+
+  .feedback-arrow--prev {
+    bottom: -120px;
+    left: 100px;
+  }
+  .feedback-arrow--next {
+    bottom: -120px;
+    right: 100px;
   }
 }
