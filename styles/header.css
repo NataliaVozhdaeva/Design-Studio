@@ -1,9 +1,10 @@
 .header {
-  width: 62vw;
-  margin: auto;
+  width: 1400px;
   padding: 36px 100px;
   background: var(--main-background-color) url('../img/background/header.png')
     no-repeat;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 .nav-wrapper {
@@ -32,7 +33,7 @@
   display: inline-flex;
   gap: 28px;
   align-items: flex-end;
-  margin-bottom: 94px;
+  margin-bottom: 50px;
   margin-top: 3px;
   font-size: 16px;
   line-height: 20px;
@@ -51,13 +52,16 @@
 .header-title.title {
   font-size: 50px;
   line-height: 62px;
+  text-align: left;
+  text-transform: none;
+  margin-bottom: 0;
 }
 
 .header-text {
   margin-bottom: 27px;
-  text-align: center;
+  text-align: left;
 }
 
 .header-btn {
-  margin: 0 auto 168px;
+  margin-bottom: 168px;
 }

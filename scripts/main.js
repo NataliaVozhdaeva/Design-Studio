@@ -1,3 +1,20 @@
+const mobileMenuBtn = document.querySelector('.nav-mobile');
+const menuItems = document.querySelector('.nav');
+const windowInnerWidth = window.innerWidth;
+
+window.onload = () => {
+  if (windowInnerWidth < 905) {
+    menuItems.classList.add('non-displayed');
+    document.addEventListener('click', (e) => {
+      if (e.target == mobileMenuBtn) {
+        menuItems.classList.toggle('non-displayed');
+      } else if (e.target != menuItems) {
+        menuItems.classList.add('non-displayed');
+      }
+    });
+  }
+};
+
 const exampleImgs = document.querySelectorAll('.examples-img');
 const photos = [
   [
@@ -83,19 +100,4 @@ feedbackArrowPrev.addEventListener('click', () => {
   activeSlideNumber =
     (activeSlideNumber + feeedbackContent.length - 1) % feeedbackContent.length;
   showFeedback(activeSlideNumber);
-});
-
-const mobileMenuBtn = document.querySelector('.nav-mobile');
-const menuItems = document.querySelector('.nav');
-
-/* mobileMenuBtn.addEventListener('click', () => {
-  menuItems.classList.toggle('non-displayed');
-}); */
-
-document.addEventListener('click', (e) => {
-  if (e.target == mobileMenuBtn) {
-    menuItems.classList.toggle('non-displayed');
-  } else if (e.target != menuItems) {
-    menuItems.classList.add('non-displayed');
-  }
 });
