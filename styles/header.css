@@ -1,5 +1,5 @@
 .header {
-  width: 1400px;
+  width: 75vw;
   margin: auto;
   padding: 36px 100px;
   background: var(--main-background-color) url('../img/background/header.png')

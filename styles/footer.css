@@ -1,5 +1,5 @@
 .footer {
-  width: 1400px;
+  width: 75vw;
   margin: auto;
   background-color: var(--main-background-color-dark);
   color: #fff;
@@ -32,7 +32,6 @@
 .map {
   width: 590px;
   height: 624px;
-  background-color: aquamarine;
 }
 
 .orderForm-title.title {

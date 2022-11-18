@@ -1,15 +1,16 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1400px) {
   .body,
   .header,
   .main,
-  .footer {
+  .footer,
+  .map {
     width: 100vw;
     font-size: 14px;
   }
 
   .header {
-    background: var(--main-background-color)
-      url('../img/background/header-mobile.png') no-repeat;
+    background: var(--main-background-color) url('../img/background/header.png')
+      no-repeat;
     padding: 35px 20px;
     overflow: hidden;
     box-sizing: border-box;
@@ -78,6 +79,7 @@
   .aboutUs::before {
     position: absolute;
     width: 100%;
+    top: -10px;
     height: 465px;
     content: '';
     background: url('../img/background/aboutUs.png') no-repeat center;
@@ -105,6 +107,11 @@
   .examples {
     padding: 50px;
     margin-bottom: 100px;
+  }
+
+  .example-img {
+    width: 100%;
+    height: auto;
   }
 
   .crew {
@@ -154,7 +161,7 @@
   }
 
   .feedback-sliderWrapper {
-    margin: 0;
+    margin: 0 auto;
     padding: 0 30px;
     display: flex;
     position: relative;
@@ -164,6 +171,16 @@
     display: flex;
     flex-wrap: wrap;
     row-gap: 50px;
+  }
+
+  .feedback-photos {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .feedback-photo {
+    width: 100%;
+    height: auto;
   }
 
   .feedback-arrow {
@@ -177,5 +194,34 @@
   .feedback-arrow--next {
     bottom: -120px;
     right: 100px;
+  }
+
+  .footer {
+    padding: 5px 0px;
+    gap: 100px 20px;
+  }
+
+  .orderForm {
+    width: 80vw;
+    margin: 50px auto 0;
+  }
+
+  .orderForm-btn {
+    margin-top: 50px;
+  }
+
+  iframe {
+    width: 100vw;
+    border-bottom: 3px solid var(--main-background-color-dark);
+  }
+
+  .contacts {
+    padding: 30px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    width: 90vw;
+    margin: auto;
+    text-align: center;
   }
 }
