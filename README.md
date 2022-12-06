@@ -1,4 +1,7 @@
-Landing for Design Studio
+## Landing for Design Studio
+
+**Посмотреть:** https://nataliavozhdaeva.github.io/Design-Studio/
+
 <ul>Макет из свободного доступа, в нем была реализована только десктопная версия.
 <li>Реализовала адаптив + верстка резиновая, должна корректно отображаться, в том числе, на экранах с промежуточными брейпоинтами.</li>
 <li>Использованы flex, grid, position.</li>
