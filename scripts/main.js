@@ -19,8 +19,8 @@ const exampleImgs = document.querySelectorAll('.examples-img');
 const photos = [
   [
     'img/content/examples/bedroom.jpg',
-    'img/content/examples/dining room.jpg',
-    'img/content/examples/main room.jpg',
+    'img/content/examples/dining_room.jpg',
+    'img/content/examples/main_room.jpg',
     'img/content/examples/bathroom.jpg',
   ],
 
